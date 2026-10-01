@@ -1,0 +1,6 @@
+#!/bin/sh
+case "$2" in
+  https://github.com/luguannan90-sketch/concretecrack-CNN|https://github.com/luguannan90-sketch/concretecrack-CNN.git|git@github.com:luguannan90-sketch/concretecrack-CNN.git|ssh://git@github.com/luguannan90-sketch/concretecrack-CNN.git) ;;
+  *) echo "Push blocked: this checkout may only push to luguannan90-sketch/concretecrack-CNN." >&2; exit 1 ;;
+esac
+exit 0

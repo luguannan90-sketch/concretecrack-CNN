@@ -1,0 +1,21 @@
+# Local datasets, models and results are not uploaded.
+SDNET2018/
+artifacts/
+_backups/
+_maintenance/
+output/
+inputs/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pt
+*.pth
+*.ckpt
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.pdf
+*.docx
+.env
+.env.*
